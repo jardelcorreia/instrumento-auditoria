@@ -4,8 +4,8 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "build": "vite build && tsc --project tsconfig.server.json",
-    "start": "tsx watch scripts/dev.ts"
+    "build": "npx vite build && npx tsc --project tsconfig.server.json",
+    "start": "npx tsx watch scripts/dev.ts"
   },
   "dependencies": {
     "@radix-ui/react-alert-dialog": "^1.1.14",

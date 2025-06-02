@@ -4,6 +4,7 @@ import { createServer } from 'vite';
 let viteServer;
 
 async function startDev() {
+  process.env.NODE_ENV = 'development';
   // Start the Express API server first
   await startServer(3001);
 
